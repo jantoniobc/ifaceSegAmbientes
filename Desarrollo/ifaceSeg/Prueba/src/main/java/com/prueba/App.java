@@ -10,15 +10,15 @@ import javax.ws.rs.core.MediaType;
  *
  */
 @Path("prueba")
-public class App 
+public class App
 {
-   
+
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
         return "vamos!";
     }
-
+//Se actualiza de prueba
   @POST
     @Produces(MediaType.TEXT_PLAIN)
     public String setIt() {
