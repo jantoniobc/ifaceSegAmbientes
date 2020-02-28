@@ -19,6 +19,11 @@ public class App
         return "vamos!";
     }
 
+  @POST
+    @Produces(MediaType.TEXT_PLAIN)
+    public String setIt() {
+        return "vamos!";
+    }
 
 
 
